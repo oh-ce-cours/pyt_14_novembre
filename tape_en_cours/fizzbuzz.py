@@ -42,4 +42,11 @@ for nombre in nombres_1_a_100:
     print(res)
 
 
-def regle_fizzbuzz(nombre: int)
+def regle_fizzbuzz(nombre: int) -> str:
+    res = ""
+    if nombre % 3 == 0:
+        res = res + "fizz"
+    if nombre % 5 == 0:
+        res += "buzz"
+    if not res:
+        res = nombre
