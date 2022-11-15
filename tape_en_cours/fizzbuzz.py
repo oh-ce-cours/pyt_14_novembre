@@ -39,3 +39,4 @@ for nombre in nombres_1_a_100:
 
 for nombre in nombres_1_a_100:
     res = "fizz" * (nombre % 3 == 0) + "buzz" * (nombre % 5 == 0) or nombre
+    print(res)
