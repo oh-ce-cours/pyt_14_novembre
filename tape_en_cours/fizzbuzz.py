@@ -16,13 +16,24 @@ nombres_1_a_100 = range(1, 101)
 #     else:
 #         print(nombre)
 
+# for nombre in nombres_1_a_100:
+#     match (nombre % 3, nombre % 5):
+#         case 0, 0:
+#             print("Fizzbuzz")
+#         case _, 0:
+#             print("Buzz")
+#         case 0, _:
+#             print("Fizz")
+#         case _, _:
+#             print(nombre)
+
 for nombre in nombres_1_a_100:
-    match (nombre % 3, nombre % 5):
-        case 0, 0:
-            print("Fizzbuzz")
-        case _, 0:
-            print("Buzz")
-        case 0, _:
-            print("Fizz")
-        case _, _:
-            print(nombre)
+    res = ""
+    if nombre % 3 == 0:
+        res = res + "fizz"
+    if nombre % 5 == 0:
+        res += "buzz"
+
+    # if res == "":
+    if not res:
+        res = str(i)
