@@ -12,4 +12,4 @@ for nombre in nombres_1_a_100:
     elif nombre % 5 == 0:
         print("Buzz")
     elif nombre % 3 == 0 and nombre % 5 == 0:
-        print("fizzbuzz")
+        print("FizzBuzz")
