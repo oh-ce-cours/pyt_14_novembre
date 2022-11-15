@@ -17,7 +17,7 @@ nombres_1_a_100 = range(1, 101)
 #         print(nombre)
 
 for nombre in nombres_1_a_100:
-    match nombre % 3, nombre % 5:
+    match (nombre % 3, nombre % 5):
         case 0, 0:
             print("Fizzbuzz")
         case _, 0:
