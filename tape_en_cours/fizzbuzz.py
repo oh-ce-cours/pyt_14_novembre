@@ -26,10 +26,3 @@ for nombre in nombres_1_a_100:
             print("Fizz")
         case _, _:
             print(nombre)
-
-direction = "gauche"
-match direction:
-    case "gauche":
-        print("A gauche")
-    case "droite":
-        print("A droite")
