@@ -50,4 +50,9 @@ def regle_fizzbuzz(nombre: int) -> str:
         res += "buzz"
     if not res:
         res = nombre
-    return 2
+    return res
+
+
+for nombre in nombres_1_a_100:
+    res = regle_fizzbuzz(nombre)
+    print(res)
