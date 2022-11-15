@@ -33,8 +33,6 @@ for nombre in nombres_1_a_100:
         res = res + "fizz"
     if nombre % 5 == 0:
         res += "buzz"
-
-    # if res == "":
     if not res:
         res = str(nombre)
     print(res)
