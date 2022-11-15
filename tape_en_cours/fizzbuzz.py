@@ -53,8 +53,8 @@ def regle_fizzbuzz(nombre: int) -> str:
     return res
 
 
-def est_divisible(numerateur, dénominateur):
-    return numerateur % dénominateur
+def est_divisible(numerateur, denominateur):
+    return numerateur % denominateur
 
 
 for nombre in nombres_1_a_100:
