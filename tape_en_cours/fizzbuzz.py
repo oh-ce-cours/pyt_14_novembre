@@ -30,7 +30,7 @@ nombres_1_a_100 = range(1, 101)
 for nombre in nombres_1_a_100:
     res = ""
     if nombre % 3 == 0:
-        res = res + "fizz"
+        re = res + "fizz"
     if nombre % 5 == 0:
         res += "buzz"
     if not res:
