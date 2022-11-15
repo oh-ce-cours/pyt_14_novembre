@@ -44,7 +44,7 @@ for nombre in nombres_1_a_100:
 
 def regle_fizzbuzz(nombre: int) -> str:
     res = ""
-    if nombre % 3 == 0:
+    if est_divisible(nombre, 3):
         res = res + "fizz"
     if nombre % 5 == 0:
         res += "buzz"
