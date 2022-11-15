@@ -36,4 +36,5 @@ for nombre in nombres_1_a_100:
 
     # if res == "":
     if not res:
-        res = str(i)
+        res = str(nombre)
+    print(res)
