@@ -25,4 +25,4 @@ for nombre in nombres_1_a_100:
         case 0, _:
             print("Fizz")
         case _, _:
-            print(i)
+            print(nombre)
