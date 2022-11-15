@@ -50,3 +50,4 @@ def regle_fizzbuzz(nombre: int) -> str:
         res += "buzz"
     if not res:
         res = nombre
+    return 2
