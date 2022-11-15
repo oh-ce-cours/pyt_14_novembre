@@ -42,20 +42,7 @@ for nombre in nombres_1_a_100:
     print(res)
 
 
-def est_divisible(numerateur, denominateur) -> bool:
-    return numerateur % denominateur == 0
-
-
-def regle_fizzbuzz(nombre: int) -> str:
-    res = ""
-    if est_divisible(nombre, 3):
-        res = res + "fizz"
-    if est_divisible(nombre, 5):
-        res += "buzz"
-    if not res:
-        res = nombre
-    return res
-
+from utils import regle_fizzbuzz
 
 for nombre in nombres_1_a_100:
     res = regle_fizzbuzz(nombre)
