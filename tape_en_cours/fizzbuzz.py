@@ -34,5 +34,5 @@ for nombre in nombres_1_a_100:
     if nombre % 5 == 0:
         res += "buzz"
     if not res:
-        res = nombre + "toto"
+        res = nombre
     print(res)
