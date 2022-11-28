@@ -13,7 +13,7 @@ plt.show()
 
 figure = plt.figure()
 axes = figure.add_subplot(111)
-axes.plot(xs, ys, "o-")
+axes.plot(xs, ys ** 2, "o-")
 plt.title("Super graph !")
 interactive(False)
 plt.show()
