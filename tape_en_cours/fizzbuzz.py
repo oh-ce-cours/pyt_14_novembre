@@ -4,6 +4,7 @@ Created on Tue Nov 15 09:42:39 2022
 
 @author: 33612
 """
+from utils import regle_fizzbuzz
 
 nombres_1_a_100 = range(1, 101)
 # for nombre in nombres_1_a_100:
@@ -37,12 +38,10 @@ nombres_1_a_100 = range(1, 101)
 #         res = nombre
 #     print(res)
 
-for nombre in nombres_1_a_100:
-    res = "fizz" * (nombre % 3 == 0) + "buzz" * (nombre % 5 == 0) or nombre
-    print(res)
+# for nombre in nombres_1_a_100:
+#     res = "fizz" * (nombre % 3 == 0) + "buzz" * (nombre % 5 == 0) or nombre
+#     print(res)
 
-
-from utils import regle_fizzbuzz
 
 for nombre in nombres_1_a_100:
     res = regle_fizzbuzz(nombre)
