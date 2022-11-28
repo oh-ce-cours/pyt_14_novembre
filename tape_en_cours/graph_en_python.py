@@ -12,7 +12,7 @@ print("avant show")
 plt.show()
 print("apres show")
 
-plt.figure()
+# plt.figure()
 plt.plot(xs, ys ** 2, "o-")
 plt.title("Super graph !")
 interactive(False)
