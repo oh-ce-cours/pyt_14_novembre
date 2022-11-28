@@ -8,6 +8,7 @@ figure = plt.figure()
 axes = figure.add_subplot(111)
 axes.plot(xs, ys, "o-")
 plt.title("Super graph !")
+interactive()
 plt.show()
 
 figure = plt.figure()
