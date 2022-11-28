@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import interactive
 
-# interactive(True)
+interactive(True)
 xs = np.linspace(-2 * np.pi, 2 * np.pi, 100)
 ys = np.cos(xs)
 figure = plt.figure()
